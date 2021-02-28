@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <title>Weather app</title>
+</head>
+<body>
+
+    <div class="container mx-auto my-4">
+        <h1 class="text-muted text-center my-4 ">Weather app</h1>
+
+        <form class=" mx-auto my-4 text-center text-muted">
+            <label for="location">Enter location for weather information </label>
+            <input class="form-control" type="text" name="location">
+        </form>
+
+        <div class="card shadow  rounded  d-none ">
+            <img src="https://via.placeholder.com/400x300" alt="" class="card-img-top time">
+           <div class="icon bg-light mx-auto text-center">
+            <img src="" alt="" class="icon-img">
+           </div>
+            <div class="text-center text-muted text-uppercase infos">
+                <h5 class="my-3">city name</h5>
+                <div class="my-3">weather condition</div>
+                <div class="my-4 display-4 temp">
+                    <span>temp</span>
+                    <span>&deg;c </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+     <script src="script/forcast.js"></script>
+     <script src="script/app.js"></script>
+</body>
+</html>
